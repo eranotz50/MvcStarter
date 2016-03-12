@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace GeekQuiz.Models
+namespace MvcAngularEx.Models
 {
     public class TriviaQuestion
     {

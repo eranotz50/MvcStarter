@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
-namespace GeekQuiz.Models
+namespace MvcAngularEx.Models
 {
     public class TriviaOption
     {
