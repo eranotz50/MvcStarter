@@ -13,8 +13,10 @@ namespace MvcAngularEx
 
             //config.Formatters.Add(new JsonpMediaTypeFormatter(config.Formatters.JsonFormatter));
             
- //           config.Formatters.JsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
-
+           config.Formatters.JsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+           
+            
+            //config.Formatters.Add(new JsonpMediaTypeFormatter(config.Formatters.JsonFormatter));
             //config.Formatters.Add(new CamelCasePropertyNamesContractResolver(config.Formatters.JsonFormatter));
             
             // Web API configuration and services
